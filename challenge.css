@@ -31,8 +31,11 @@ main font color - #707070
 header {
 	height: 100px;
 }
+
 header, footer {
-	
+	background-color: #babaff;	
+	margin: 5px;
+	border: 1px solid #00f;
 }
 
 /* Main */
