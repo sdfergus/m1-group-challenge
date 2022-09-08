@@ -44,10 +44,16 @@ main {
 	padding:15px;
 	margin-bottom:5px;
 	float:left;
+	background-color: #f0f8ff;
 }
 main h2 {
-	font:normal bold 16px; 
+	font:normal bold 16px arial; 
 	margin:10px 0; 
+	color: #001a63;
+}
+main p {
+	color: #707070;
+	font-weight: 500; /*Q: Can this weight be a bit bolder some other way?*/
 }
 
 /* Global Navigation */
