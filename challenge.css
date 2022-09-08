@@ -79,7 +79,7 @@ main p {
 	font-weight: 600;
 }
 .globalNav ul a:hover {
-	
+	color: #ff9600;
 }
 [src="images/gcimage.png"] {
 	float:right;
@@ -88,16 +88,27 @@ main p {
 /* Footer */
 footer {
 	clear:both;
+	text-align: center;
+	padding-top: 10px;
 }
 footer p {
-	
+	padding: 5px 10px 15px;
+	font: italic bold 12px arial;
+	/* font-size: 12px;
+	font-style: italic;
+	font-weight:800; */
+	color: #40408d;
 }
 .footerNav {
 	background:#00f;
 	padding: 5px 0;
+	/* text-align: center; */
 }
 .footerNav li {
 	border-left:1px solid #fff;
+	display: inline;
+	padding: 0 5px;
+	font: normal bold 14px arial;
 }
 .footerNav li:first-child {
 	border-left:none;
@@ -108,7 +119,7 @@ footer p {
 	text-decoration:none;
 }
 .footerNav a:hover {
-
+	color: #ff9600;
 }
 
 
